@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free WordPress Speed &amp; Core Web Vitals Audit — Waseem Ahmad</title>
+  <meta name="description" content="Request a free, in-depth technical Core Web Vitals audit for your WordPress website. Calculate your estimated lost revenue and speed ROI.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/sections/calculator.css">
+  <link rel="stylesheet" href="css/sections/contact.css">
+</head>
+<body>
+  <div class="bg-grid-pattern"></div>
+  <div class="noise-overlay"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="brand-logo">
+          <div class="logo-symbol">W</div>
+          <div class="logo-text">Waseem<span>.dev</span></div>
+        </a>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="projects.html" class="nav-link">Case Studies</a></li>
+          <li><a href="audit.html" class="nav-link active">Speed Audit</a></li>
+          <li><a href="blog.html" class="nav-link">Insights</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="audit.html" class="btn btn-primary btn-sm">Free Audit →</a>
+          <button class="mobile-toggle" id="mobileToggle"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="mobile-nav-link">Home <span>→</span></a></li>
+      <li><a href="about.html" class="mobile-nav-link">About <span>→</span></a></li>
+      <li><a href="services.html" class="mobile-nav-link">Services <span>→</span></a></li>
+      <li><a href="projects.html" class="mobile-nav-link">Case Studies <span>→</span></a></li>
+      <li><a href="audit.html" class="mobile-nav-link active">Speed Audit <span>→</span></a></li>
+      <li><a href="blog.html" class="mobile-nav-link">Insights <span>→</span></a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact <span>→</span></a></li>
+    </ul>
+  </div>
+
+  <main>
+    
+    <section style="padding: 100px 0 60px;">
+      <div class="container">
+        
+        <div class="section-header text-center reveal" style="max-width: 800px; margin: 0 auto 50px;">
+          <span class="section-caption">// Zero-Risk Speed Diagnostic</span>
+          <h1 class="section-title" style="font-size: 46px;">
+            Free WordPress <span class="highlight">Speed &amp; CWV Diagnostic</span>
+          </h1>
+          <p class="section-subtitle">
+            Get an actionable 1-on-1 technical teardown of your WordPress site. I'll pinpoint your render-blocking assets, slow database queries, and edge-caching flaws within 24 hours.
+          </p>
+        </div>
+
+        <!-- Calculator Tool Embedded -->
+        <div class="calc-container spotlight-card reveal" style="margin-bottom: 70px;">
+          <div class="calc-grid">
+            <div class="calc-inputs">
+              <div class="calc-group">
+                <div class="calc-label-row">
+                  <span class="calc-label">Monthly Website Visitors</span>
+                  <span class="calc-val-badge" id="trafficVal">25,000 /mo</span>
+                </div>
+                <input type="range" class="calc-slider" id="calcTraffic" min="2000" max="250000" step="1000" value="25000">
+              </div>
+
+              <div class="calc-group">
+                <div class="calc-label-row">
+                  <span class="calc-label">Estimated Monthly Revenue</span>
+                  <span class="calc-val-badge" id="revenueVal">$15,000 /mo</span>
+                </div>
+                <input type="range" class="calc-slider" id="calcRevenue" min="1000" max="100000" step="1000" value="15000">
+              </div>
+
+              <div class="calc-group">
+                <div class="calc-label-row">
+                  <span class="calc-label">Current Mobile Load Time</span>
+                  <span class="calc-val-badge" id="speedVal">4.2s</span>
+                </div>
+                <input type="range" class="calc-slider" id="calcSpeed" min="1.0" max="8.0" step="0.1" value="4.2">
+              </div>
+            </div>
+
+            <div class="calc-results-card">
+              <div class="calc-res-label">ESTIMATED ANNUAL REVENUE LEAKAGE</div>
+              <div class="calc-res-big" id="lostRevenueVal">$36,720</div>
+              <div class="calc-res-sub">lost every year due to slow mobile LCP &amp; drop-off</div>
+
+              <div class="calc-breakdown">
+                <div class="calc-breakdown-item">
+                  <div>ESTIMATED BOUNCE RATE</div>
+                  <b id="calcBounceRate">64%</b>
+                </div>
+                <div class="calc-breakdown-item">
+                  <div>POTENTIAL MONTHLY RECOVERY</div>
+                  <b id="calcRecoveredSales" style="color:var(--success);">+$3,060/mo</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Audit Request Form -->
+        <div class="contact-grid reveal" style="max-width: 900px; margin: 0 auto;">
+          <div class="contact-form-col" style="grid-column: span 2;">
+            <h3 style="font-size: 24px; margin-bottom: 8px;">Request Your Free Performance Report</h3>
+            <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 24px;">
+              Fill in your details below and I'll send your custom video &amp; PDF teardown directly to your inbox.
+            </p>
+
+            <form id="auditForm" onsubmit="event.preventDefault(); window.showToast('Audit request submitted! Waseem will reply within 24h.'); this.reset();">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Your Name</label>
+                  <input type="text" class="form-input" required placeholder="e.g. John Smith">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Your Email Address</label>
+                  <input type="email" class="form-input" required placeholder="john@company.com">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">WordPress Site URL</label>
+                  <input type="url" class="form-input" required placeholder="https://yourwebsite.com">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Current Hosting Provider</label>
+                  <input type="text" class="form-input" placeholder="e.g. Hostinger, cPanel, SiteGround, VPS">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">What is your primary concern?</label>
+                <textarea class="form-textarea" placeholder="e.g. Failed mobile INP score, slow WooCommerce checkout, or slow Elementor rendering."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 10px;">
+                <span>Send Me The Free Audit Teardown →</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span class="logo-symbol">W</span>
+            <span class="logo-text">Waseem<span>.dev</span></span>
+          </a>
+          <p>WordPress Performance Engineer specializing in Core Web Vitals, WooCommerce scaling, security hardening, and hosting operations.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Case Studies</a></li>
+            <li><a href="audit.html">Speed Audit</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Direct Reach</h5>
+          <ul>
+            <li><a href="mailto:Waseemahmad5019@gmail.com">Waseemahmad5019@gmail.com</a></li>
+            <li><a href="https://wa.me/923208457734" target="_blank">WhatsApp: +92 320 8457734</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Waseem Ahmad. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/spotlight.js"></script>
+  <script src="js/calculator.js"></script>
+</body>
+</html>

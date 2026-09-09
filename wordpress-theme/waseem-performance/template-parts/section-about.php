@@ -1,0 +1,124 @@
+<?php
+/**
+ * Template Part: About & Total Core Vitals Plugin Story
+ *
+ * @package Waseem_Performance
+ */
+?>
+<section class="about-page-hero" id="about">
+  <div class="container">
+    
+    <div class="about-deep-grid">
+      
+      <!-- Profile Card with Real Photo -->
+      <div class="about-profile-card spotlight-card reveal">
+        
+        <div class="profile-avatar-frame">
+          <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/waseem-photo.jpg'); ?>" alt="Waseem Ahmad — WordPress Performance Engineer" class="profile-img">
+        </div>
+
+        <h3 style="font-size:22px; margin-bottom:4px;">Waseem Ahmad</h3>
+        <p style="font-family:var(--font-mono); font-size:12.5px; color:var(--primary-light); margin-bottom:16px;">
+          WordPress Performance Engineer &amp; Full Stack Dev
+        </p>
+
+        <div style="display:flex; flex-direction:column; gap:10px; font-size:13.5px; color:var(--text-secondary); border-top:1px solid var(--border); padding-top:16px;">
+          <div style="display:flex; justify-content:space-between;">
+            <span style="color:var(--text-muted);">Specialization</span>
+            <span style="color:var(--text-primary); font-weight:600;">Core Web Vitals &amp; Speed</span>
+          </div>
+          <div style="display:flex; justify-content:space-between;">
+            <span style="color:var(--text-muted);">Target Stack</span>
+            <span style="color:var(--text-primary); font-weight:600;">Shared / VPS / Cloudflare</span>
+          </div>
+          <div style="display:flex; justify-content:space-between;">
+            <span style="color:var(--text-muted);">Direct Email</span>
+            <a href="mailto:Waseemahmad5019@gmail.com" style="color:var(--primary-light); text-decoration:underline;">Waseemahmad5019@gmail.com</a>
+          </div>
+        </div>
+
+        <div style="margin-top:24px; display:flex; gap:10px;">
+          <button class="btn btn-secondary btn-sm" data-copy="Waseemahmad5019@gmail.com" style="flex:1;">
+            <span>Copy Email</span>
+          </button>
+          <a href="https://wa.me/923208457734" target="_blank" class="btn btn-primary btn-sm" style="flex:1;">
+            <span>WhatsApp</span>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Narrative & Background -->
+      <div class="reveal">
+        <span class="section-caption">// Engineering Philosophy</span>
+        <h2 class="section-title">I don't just build sites — <span class="highlight">I engineer how fast they run</span></h2>
+        
+        <p style="font-size:16px; color:var(--text-secondary); line-height:1.8; margin-bottom:20px;">
+          Most WordPress developers stop at visual page builders. When a site feels sluggish, they install three competing caching plugins that break JavaScript execution, generate bloated CSS, and cause layout shifts.
+        </p>
+
+        <p style="font-size:16px; color:var(--text-secondary); line-height:1.8; margin-bottom:24px;">
+          My work begins where typical designers stop. I look at actual Chrome User Experience data, profile slow MySQL queries, manage script execution order, and tune web server headers so that your WordPress site runs with the speed and reliability of a modern custom web application.
+        </p>
+
+        <!-- Total Core Vitals Box -->
+        <div style="background:var(--surface-1); border:1px solid var(--border-strong); border-left:4px solid var(--primary); padding:24px; border-radius:var(--radius-lg); margin-bottom:32px;">
+          <h4 style="font-size:17px; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            Why I Built "Total Core Vitals"
+          </h4>
+          <p style="font-size:14px; color:var(--text-secondary); line-height:1.6;">
+            I built <strong>Total Core Vitals</strong>, a proprietary WordPress optimization plugin featuring intelligent script delay, WooCommerce AJAX fragmentation suppression, and automated critical CSS generation — giving clients custom performance engineering without annual plugin subscription bloat.
+          </p>
+        </div>
+
+        <!-- Capability Grid -->
+        <div class="skills-matrix-grid">
+          
+          <div class="skill-category-card">
+            <h4 class="skill-category-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              WordPress Core
+            </h4>
+            <ul class="skill-list">
+              <li><span>Custom Plugins</span> <span class="level">Advanced</span></li>
+              <li><span>Elementor / Blocks</span> <span class="level">Expert</span></li>
+              <li><span>WooCommerce HPOS</span> <span class="level">Advanced</span></li>
+              <li><span>ACF Pro Fields</span> <span class="level">Expert</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-category-card">
+            <h4 class="skill-category-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              Speed &amp; SEO
+            </h4>
+            <ul class="skill-list">
+              <li><span>Core Web Vitals</span> <span class="level">Mastery</span></li>
+              <li><span>INP &amp; LCP Tuning</span> <span class="level">Mastery</span></li>
+              <li><span>Cloudflare APO</span> <span class="level">Advanced</span></li>
+              <li><span>Technical SEO Crawl</span> <span class="level">Advanced</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-category-card">
+            <h4 class="skill-category-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+              Server &amp; Hosting
+            </h4>
+            <ul class="skill-list">
+              <li><span>Shared (cPanel)</span> <span class="level">Expert</span></li>
+              <li><span>LiteSpeed / Nginx</span> <span class="level">Advanced</span></li>
+              <li><span>Redis Caching</span> <span class="level">Advanced</span></li>
+              <li><span>Malware Removal</span> <span class="level">Expert</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,167 @@
+<?php
+/**
+ * Template Part: Services Bento Grid
+ *
+ * @package Waseem_Performance
+ */
+?>
+<section class="bento-section" id="services">
+  <div class="container">
+    
+    <div class="section-header text-center reveal">
+      <span class="section-caption">// Full-Stack Discipline</span>
+      <h2 class="section-title">Everything Needed for <span class="highlight">Peak WordPress Performance</span></h2>
+      <p class="section-subtitle">
+        Eliminate vendor friction. I handle frontend code, database bottlenecks, Cloudflare edge caching, and server architecture in a single unified engagement.
+      </p>
+    </div>
+
+    <div class="bento-grid">
+      
+      <!-- Big Bento Item 1: Core Web Vitals & Technical SEO -->
+      <div class="bento-card col-span-2 spotlight-card reveal">
+        <div>
+          <div class="bento-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <div class="bento-header">
+            <span class="bento-tag">FLAGSHIP SPECIALIZATION</span>
+            <h3 class="bento-title">Core Web Vitals &amp; Technical Search Optimization</h3>
+            <p class="bento-desc">
+              Transform slow scores into 95+ PageSpeed ratings. Fix tricky INP (Interaction to Next Paint) lag, eliminate render-blocking CSS/JS, optimize DOM size, and fine-tune crawl budgets for rapid indexing.
+            </p>
+          </div>
+          <ul class="bento-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Script delay execution &amp; critical path CSS generation
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Automated WebP/AVIF image pipeline &amp; responsive srcset fixing
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Canonical URL hierarchies, faceted navigation &amp; XML sitemaps
+            </li>
+          </ul>
+        </div>
+        <div class="bento-preview-box">
+          <code>&lt;!-- Total Core Vitals --&gt; JS Delayed: 14 scripts | DOM nodes reduced: -48%</code>
+        </div>
+      </div>
+
+      <!-- Bento Item 2: Custom Plugin & Theme Dev -->
+      <div class="bento-card spotlight-card reveal">
+        <div>
+          <div class="bento-icon-box">WP</div>
+          <div class="bento-header">
+            <span class="bento-tag">CLEAN CODE</span>
+            <h3 class="bento-title">Custom Theme &amp; Plugin Dev</h3>
+            <p class="bento-desc">
+              Tailored WordPress themes and custom plugins built from scratch without bloatware, following PSR-12 and WordPress VIP coding standards.
+            </p>
+          </div>
+          <ul class="bento-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Custom Gutenberg Blocks &amp; ACF Pro
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Elementor custom widgets &amp; extensions
+            </li>
+          </ul>
+        </div>
+        <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-ghost btn-sm" style="margin-top: 20px;">Explore Specs →</a>
+      </div>
+
+      <!-- Bento Item 3: WooCommerce Store Optimization -->
+      <div class="bento-card spotlight-card reveal">
+        <div>
+          <div class="bento-icon-box">WC</div>
+          <div class="bento-header">
+            <span class="bento-tag">E-COMMERCE ENGINE</span>
+            <h3 class="bento-title">WooCommerce Store Scaling</h3>
+            <p class="bento-desc">
+              High-concurrency store optimization. Fix cart fragmentation, optimize `wp_posts` and `wp_postmeta` database tables, and accelerate checkout speeds.
+            </p>
+          </div>
+          <ul class="bento-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Bypass AJAX cart fragments with LocalStorage
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              High-Performance Order Storage (HPOS) tuning
+            </li>
+          </ul>
+        </div>
+        <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-ghost btn-sm" style="margin-top: 20px;">View WooCommerce Services →</a>
+      </div>
+
+      <!-- Bento Item 4: Cloudflare Edge Caching -->
+      <div class="bento-card spotlight-card reveal">
+        <div>
+          <div class="bento-icon-box">CF</div>
+          <div class="bento-header">
+            <span class="bento-tag">EDGE INFRASTRUCTURE</span>
+            <h3 class="bento-title">Cloudflare &amp; CDN Setup</h3>
+            <p class="bento-desc">
+              Configure edge caching (APO / Cache Rules), Brotli compression, Tiered Cache, and custom Page Rules to serve 85%+ requests directly from edge nodes.
+            </p>
+          </div>
+          <ul class="bento-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Cloudflare APO &amp; Worker micro-caching
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Zero-downtime DNS routing &amp; SSL/TLS setup
+            </li>
+          </ul>
+        </div>
+        <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-ghost btn-sm" style="margin-top: 20px;">Read CDN Details →</a>
+      </div>
+
+      <!-- Bento Item 5: Security Hardening & Malware Removal -->
+      <div class="bento-card spotlight-card reveal">
+        <div>
+          <div class="bento-icon-box">SEC</div>
+          <div class="bento-header">
+            <span class="bento-tag">THREAT PREVENTION</span>
+            <h3 class="bento-title">Security &amp; Malware Eradication</h3>
+            <p class="bento-desc">
+              Complete emergency malware removal, backdoor cleanup, blacklist delisting, 2FA enforcement, and 7-layer defense against brute-force attacks.
+            </p>
+          </div>
+          <ul class="bento-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Automated WP file integrity scanning
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Google Search Console malware delisting
+            </li>
+          </ul>
+        </div>
+        <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-ghost btn-sm" style="margin-top: 20px;">Security Hardening →</a>
+      </div>
+
+    </div>
+
+    <!-- Secondary Stack Matrix -->
+    <div class="tech-pills-row reveal" style="justify-content: center; margin-top: 40px;">
+      <span class="tech-pill">Shared Hosting (cPanel / LiteSpeed)</span>
+      <span class="tech-pill">Ubuntu VPS &amp; Nginx</span>
+      <span class="tech-pill">Redis Object Caching</span>
+      <span class="tech-pill">PHP 8.2 / 8.3 OPcache</span>
+      <span class="tech-pill">WP-CLI Automation</span>
+      <span class="tech-pill">MySQL &amp; MariaDB Indexing</span>
+    </div>
+
+  </div>
+</section>

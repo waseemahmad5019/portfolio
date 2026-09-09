@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Studies &amp; Performance Benchmarks — Waseem Ahmad</title>
+  <meta name="description" content="Explore real client case studies: Upsleeve.ae, SuperCloneWatches, and BellaFoods with before and after PageSpeed and Core Web Vitals metrics.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/sections/case-studies.css">
+</head>
+<body>
+  <div class="bg-grid-pattern"></div>
+  <div class="noise-overlay"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="brand-logo">
+          <div class="logo-symbol">W</div>
+          <div class="logo-text">Waseem<span>.dev</span></div>
+        </a>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="projects.html" class="nav-link active">Case Studies</a></li>
+          <li><a href="audit.html" class="nav-link">Speed Audit</a></li>
+          <li><a href="blog.html" class="nav-link">Insights</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="audit.html" class="btn btn-secondary btn-sm">Free Audit</a>
+          <a href="contact.html" class="btn btn-primary btn-sm">Start Project →</a>
+          <button class="mobile-toggle" id="mobileToggle"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="mobile-nav-link">Home <span>→</span></a></li>
+      <li><a href="about.html" class="mobile-nav-link">About <span>→</span></a></li>
+      <li><a href="services.html" class="mobile-nav-link">Services <span>→</span></a></li>
+      <li><a href="projects.html" class="mobile-nav-link active">Case Studies <span>→</span></a></li>
+      <li><a href="audit.html" class="mobile-nav-link">Speed Audit <span>→</span></a></li>
+      <li><a href="blog.html" class="mobile-nav-link">Insights <span>→</span></a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact <span>→</span></a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="projects-section" style="padding-top: 100px;">
+      <div class="container">
+        
+        <div class="section-header text-center reveal" style="max-width: 800px; margin: 0 auto 50px;">
+          <span class="section-caption">// Real Client Case Studies</span>
+          <h1 class="section-title" style="font-size: 46px;">
+            Measurable Results, <span class="highlight">Proven Architecture</span>
+          </h1>
+          <p class="section-subtitle">
+            Every case study below represents real production sites optimized with documented before-and-after Core Web Vitals metrics.
+          </p>
+        </div>
+
+        <div class="projects-filter-bar reveal">
+          <div class="tabs-nav" style="margin: 0 auto 30px;">
+            <button class="tab-btn active" data-filter="all">All Projects</button>
+            <button class="tab-btn" data-filter="speed">Speed &amp; CWV</button>
+            <button class="tab-btn" data-filter="woocommerce">WooCommerce</button>
+            <button class="tab-btn" data-filter="security">Security Remediation</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Upsleeve -->
+          <div class="project-card spotlight-card reveal" data-category="speed woocommerce">
+            <div class="project-thumb">
+              <div class="project-thumb-pattern"></div>
+              <span class="project-domain">upsleeve.ae</span>
+              <span class="project-badge-top">+55 PTS SPEED</span>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">E-Commerce · Core Web Vitals</span>
+              <h3 class="project-title">Upsleeve.ae — UAE Fashion</h3>
+              <p class="project-desc">
+                Optimized mobile LCP from 4.8s to 1.1s, configured Cloudflare APO edge caching, and delayed heavy social ad tracking pixels.
+              </p>
+              <div class="project-metrics-grid">
+                <div class="metric-stat-item">
+                  <span class="lbl">PageSpeed Score</span>
+                  <span class="val">41 → 96/100</span>
+                </div>
+                <div class="metric-stat-item">
+                  <span class="lbl">Mobile LCP</span>
+                  <span class="val">1.1s (-77%)</span>
+                </div>
+              </div>
+              <div class="project-footer-btn" data-project-id="upsleeve">
+                <span>View Architecture Breakdown</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- SuperCloneWatches -->
+          <div class="project-card spotlight-card reveal" data-category="woocommerce speed">
+            <div class="project-thumb">
+              <div class="project-thumb-pattern"></div>
+              <span class="project-domain">superclonewatches.com</span>
+              <span class="project-badge-top">HIGH CONCURRENCY</span>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">WooCommerce · Nginx Tuning</span>
+              <h3 class="project-title">SuperCloneWatches Luxury Catalog</h3>
+              <p class="project-desc">
+                Rebuilt faceted archive filters for search engines, resolved canonical loops, and configured Redis Object Cache on high-load store.
+              </p>
+              <div class="project-metrics-grid">
+                <div class="metric-stat-item">
+                  <span class="lbl">Organic Traffic</span>
+                  <span class="val">+38% MoM</span>
+                </div>
+                <div class="metric-stat-item">
+                  <span class="lbl">Server TTFB</span>
+                  <span class="val">140ms</span>
+                </div>
+              </div>
+              <div class="project-footer-btn" data-project-id="superclone">
+                <span>View Architecture Breakdown</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- BellaFoods -->
+          <div class="project-card spotlight-card reveal" data-category="security woocommerce">
+            <div class="project-thumb">
+              <div class="project-thumb-pattern"></div>
+              <span class="project-domain">bellafoods.pk</span>
+              <span class="project-badge-top">EMERGENCY FIX</span>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Malware Removal · Checkout Recovery</span>
+              <h3 class="project-title">BellaFoods E-Commerce</h3>
+              <p class="project-desc">
+                Cleaned 38 injected database tables, eradicated malicious redirect backdoors, delisted from Google blacklist in 6 hours, and restored checkout.
+              </p>
+              <div class="project-metrics-grid">
+                <div class="metric-stat-item">
+                  <span class="lbl">Malware Status</span>
+                  <span class="val">100% Clean</span>
+                </div>
+                <div class="metric-stat-item">
+                  <span class="lbl">Checkout Drop</span>
+                  <span class="val">-31% Abandon</span>
+                </div>
+              </div>
+              <div class="project-footer-btn" data-project-id="bellafoods">
+                <span>View Architecture Breakdown</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Container for Project Inspection -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal-container">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span class="logo-symbol">W</span>
+            <span class="logo-text">Waseem<span>.dev</span></span>
+          </a>
+          <p>WordPress Performance Engineer specializing in Core Web Vitals, WooCommerce scaling, security hardening, and hosting operations.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Case Studies</a></li>
+            <li><a href="audit.html">Speed Audit</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Direct Reach</h5>
+          <ul>
+            <li><a href="mailto:Waseemahmad5019@gmail.com">Waseemahmad5019@gmail.com</a></li>
+            <li><a href="https://wa.me/923208457734" target="_blank">WhatsApp: +92 320 8457734</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Waseem Ahmad. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/spotlight.js"></script>
+  <script src="js/case-studies.js"></script>
+</body>
+</html>
