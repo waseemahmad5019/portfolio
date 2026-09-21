@@ -1,0 +1,18 @@
+content.js:18 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'useCache')
+    at me (content.js:18:84522)
+311da67a-d84d-4f89-9…?github=connected:1 Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.
+react-dom-client.development.js:28004 Download the React DevTools for a better development experience: https://react.dev/link/react-devtools
+supabase.ts:10 Supabase client init with URL: https://diwlcpyxsllqurtgunga.supabase.co AnonKey length: 208
+main.tsx:8 App mounting
+App.tsx:163 Current Active Nav: Dashboard
+App.tsx:163 Current Active Nav: Dashboard
+App.tsx:163 Current Active Nav: Websites
+App.tsx:163 Current Active Nav: Websites
+App.tsx:163 Current Active Nav: Websites
+App.tsx:163 Current Active Nav: Websites
+App.tsx:163 Current Active Nav: Websites
+App.tsx:163 Current Active Nav: Websites
+App.tsx:163 Current Active Nav: Websites
+App.tsx:163 Current Active Nav: Websites
+311da67a-d84d-4f89-9…?github=connected:1 Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.
+311da67a-d84d-4f89-9…?github=connected:1 Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.
